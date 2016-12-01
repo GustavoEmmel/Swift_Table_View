@@ -12,8 +12,6 @@ class NewViewController: UIViewController, UITableViewDelegate, UITableViewDataS
 
     var listaCidade = [Cidade]()
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
