@@ -15,6 +15,9 @@
 		5781BC7A1DEF9EBC007579A4 /* Cidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781BC791DEF9EBC007579A4 /* Cidade.swift */; };
 		5781BC7C1DEF9EDC007579A4 /* Estado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781BC7B1DEF9EDC007579A4 /* Estado.swift */; };
 		5781BC7E1DEFA000007579A4 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781BC7D1DEFA000007579A4 /* NewViewController.swift */; };
+		57DFC34E1DF0CAC8004DB8F0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFC34D1DF0CAC7004DB8F0 /* TableViewCell.swift */; };
+		57DFC3501DF0CDD8004DB8F0 /* MultiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFC34F1DF0CDD8004DB8F0 /* MultiTableViewCell.swift */; };
+		57DFC3521DF0D3AE004DB8F0 /* CityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFC3511DF0D3AE004DB8F0 /* CityDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		5781BC791DEF9EBC007579A4 /* Cidade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cidade.swift; sourceTree = "<group>"; };
 		5781BC7B1DEF9EDC007579A4 /* Estado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Estado.swift; sourceTree = "<group>"; };
 		5781BC7D1DEFA000007579A4 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		57DFC34D1DF0CAC7004DB8F0 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		57DFC34F1DF0CDD8004DB8F0 /* MultiTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiTableViewCell.swift; sourceTree = "<group>"; };
+		57DFC3511DF0D3AE004DB8F0 /* CityDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				5781BC651DEF7367007579A4 /* AppDelegate.swift */,
+				57DFC34D1DF0CAC7004DB8F0 /* TableViewCell.swift */,
 				5781BC791DEF9EBC007579A4 /* Cidade.swift */,
+				57DFC34F1DF0CDD8004DB8F0 /* MultiTableViewCell.swift */,
+				57DFC3511DF0D3AE004DB8F0 /* CityDetailsViewController.swift */,
 				5781BC7D1DEFA000007579A4 /* NewViewController.swift */,
 				5781BC671DEF7367007579A4 /* ViewController.swift */,
 				5781BC7B1DEF9EDC007579A4 /* Estado.swift */,
@@ -145,10 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DFC3521DF0D3AE004DB8F0 /* CityDetailsViewController.swift in Sources */,
 				5781BC7A1DEF9EBC007579A4 /* Cidade.swift in Sources */,
 				5781BC681DEF7367007579A4 /* ViewController.swift in Sources */,
 				5781BC7E1DEFA000007579A4 /* NewViewController.swift in Sources */,
+				57DFC34E1DF0CAC8004DB8F0 /* TableViewCell.swift in Sources */,
 				5781BC661DEF7367007579A4 /* AppDelegate.swift in Sources */,
+				57DFC3501DF0CDD8004DB8F0 /* MultiTableViewCell.swift in Sources */,
 				5781BC7C1DEF9EDC007579A4 /* Estado.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +323,7 @@
 				5781BC761DEF7367007579A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

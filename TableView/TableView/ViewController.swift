@@ -26,9 +26,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableViewOutlet: UITableView!
     var cidades = ["canoas", "porto alegre", "caxias", "eldorado", "guaiba", "pelotas", "esteio", "novo hamburgo"]
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.cidades.count

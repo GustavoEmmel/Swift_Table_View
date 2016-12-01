@@ -10,8 +10,8 @@ import UIKit
 
 class Cidade: NSObject {
 
-    var nome : String = ""
-    var estado : String = ""
+    var nome : String?
+    var estado : Estado?
     
     
 }

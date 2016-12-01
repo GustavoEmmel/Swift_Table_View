@@ -10,7 +10,7 @@ import UIKit
 
 class Estado: NSObject {
 
-    var nome : String = ""
-    var sigla : String = ""
+    var nome : String?
+    var sigla : String?
     
 }
